@@ -3,7 +3,7 @@ alert("To show a popup, when clicking any button");
 let toastBox = document.getElementById('toastBox');
 let sucessmsg = ' <i class="fa-solid fa-circle-check"></i> Sucessfully submited';
 let errormsg = '<i class="fa-solid fa-circle-xmark"></i> Please fix the error!';
-let invalidmsg = '<i class="fa-solid fa-circle-exclamation"></i>  Invalid input,check again';
+let Invalidmsg = '<i class="fa-solid fa-circle-exclamation"></i>  Invalid input,check again';
 
 
 function showToast(msg){
@@ -16,8 +16,8 @@ function showToast(msg){
         toast.classList.add('error');
     }
 
-    if(msg.includes('Invlaid')){
-        toast.classList.add('invlaid');
+    if(msg.includes('Invalid')){
+        toast.classList.add('Invalid');
       
     }
 
